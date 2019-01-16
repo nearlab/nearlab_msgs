@@ -1,0 +1,9 @@
+float64[4] qStart
+float64[4] qEnd
+float64 tStart
+float64 tEnd
+int32 intervals 
+----
+float64[] control_x
+float64[] control_y
+float64[] control_z

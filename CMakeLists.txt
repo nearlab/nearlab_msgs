@@ -23,6 +23,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_service_files(DIRECTORY srv FILES
   energy_optimal_traj.srv
+  attitude_traj.srv
 )
 
 generate_messages(DEPENDENCIES
