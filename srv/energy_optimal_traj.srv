@@ -1,0 +1,15 @@
+float64[3] rOrb
+float64[3] rStart
+float64[3] vStart
+float64[3] rEnd
+float64[3] vEnd
+float64 dt
+float64 grav_param
+float64 sc_mass
+float64 dist_const
+float64 sc_thrust
+float64 time_const
+---
+float64[] control_x
+float64[] control_y
+float64[] control_z
