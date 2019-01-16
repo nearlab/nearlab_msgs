@@ -3,6 +3,8 @@ float64[3] rStart
 float64[3] vStart
 float64[3] rEnd
 float64[3] vEnd
+float64 tStart
+float64 tEnd
 float64 dt
 float64 grav_param
 float64 sc_mass
