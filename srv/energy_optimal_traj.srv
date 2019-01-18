@@ -19,4 +19,7 @@ float64[] rz
 float64[] vx
 float64[] vy
 float64[] vz
+float64[] ux
+float64[] uy
+float64[] uz
 float64[] times
