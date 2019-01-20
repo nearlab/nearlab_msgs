@@ -10,16 +10,9 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-# add_message_files(DIRECTORY ${PROJECT_SOURCE_DIR}/msg FILES
-#   Control.msg
-#   MarkersParsed.msg
-#   State.msg
-#   StateCov.msg
-#   SpacecraftState.msg
-#   Imu.msg
-#   Marker.msg
-#   Markers.msg
-# )
+add_message_files(DIRECTORY ${PROJECT_SOURCE_DIR}/msg FILES
+  ControlStamped.msg
+)
 
 add_service_files(DIRECTORY srv FILES
   energy_optimal_traj.srv
