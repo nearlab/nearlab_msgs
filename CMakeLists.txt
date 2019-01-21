@@ -6,6 +6,7 @@ add_compile_options(-std=c++11 -g -Wall)
 
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
+  geometry_msgs
   roscpp
   message_generation
 )
@@ -22,10 +23,12 @@ add_service_files(DIRECTORY srv FILES
 
 generate_messages(DEPENDENCIES
   std_msgs
+  geometry_msgs
 )
 
 catkin_package(CATKIN_DEPENDS
   std_msgs
+  geometry_msgs
   roscpp
   message_runtime
 )
