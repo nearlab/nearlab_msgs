@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(DIRECTORY ${PROJECT_SOURCE_DIR}/msg FILES
   ControlStamped.msg
+  StateStamped.msg
 )
 
 add_service_files(DIRECTORY srv FILES
