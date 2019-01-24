@@ -1,3 +1,3 @@
 Header header
-Vector3 thrust
-Vector3 torque
+geometry_msgs/Vector3 thrust
+geometry_msgs/Vector3 torque

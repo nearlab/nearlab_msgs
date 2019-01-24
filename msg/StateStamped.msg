@@ -1,5 +1,5 @@
 Header header
-Vector3 v
-Vector3 w
-Vector3 r
-Quaternion q
+geometry_msgs/Vector3 v
+geometry_msgs/Vector3 w
+geometry_msgs/Vector3 r
+geometry_msgs/Quaternion q
