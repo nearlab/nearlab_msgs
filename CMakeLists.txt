@@ -15,6 +15,7 @@ add_message_files(DIRECTORY ${PROJECT_SOURCE_DIR}/msg FILES
   ControlStamped.msg
   ImuWithCovarianceStamped.msg
   FlowWithCovarianceStamped.msg
+  LidarRawWithCovarianceStamped.msg
   StateStamped.msg
 )
 
